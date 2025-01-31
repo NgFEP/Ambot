@@ -1,0 +1,21 @@
+#Create a Virtual Environment
+python3 -m venv rag_env
+
+#Activate the Virtual Environment
+source rag_env/bin/activate
+
+#Install the Required Libraries
+pip install -r requirements.txt
+
+#Verify the Installation
+pip freeze
+
+# Verify Ollama
+ollama list
+
+#### Run the AMBOT standalone
+python step_1_generate_embedding.py
+python step_2_AMBOT.py
+
+#### For local host run
+python rag_api.py

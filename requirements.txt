@@ -1,0 +1,17 @@
+# General Python Libraries
+numpy==2.2.1
+PyPDF2==3.0.1
+requests==2.32.3
+beautifulsoup4==4.12.3
+Flask==3.1.0
+Jinja2==3.1.5
+ollama==0.5.5
+# LLM-Specific Library
+ollama  # Install via the instructions provided for Ollama SDK
+ollama pull nomic-embed-text:latest
+ollama pull llama3.2:1b
+
+
+# Optional Libraries for Environment Variables (if needed)
+python-dotenv==1.0.1
+
