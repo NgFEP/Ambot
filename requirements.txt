@@ -5,7 +5,7 @@ requests==2.32.3
 beautifulsoup4==4.12.3
 Flask==3.1.0
 Jinja2==3.1.5
-
+ollama==0.5.5
 # Optional Libraries for Environment Variables (if needed)
 python-dotenv==1.0.1
 
