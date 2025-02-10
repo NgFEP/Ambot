@@ -21,6 +21,11 @@ ollama list
 nomic-embed-text:latest
 llama3.2:1b
 
+##Start Ollama and verify it is running:
+sudo systemctl start ollama
+sudo systemctl status ollama
+
+
 #### Run the AMBOT standalone
 python step_1_generate_embedding.py
 python step_2_AMBOT.py
