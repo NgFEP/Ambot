@@ -10,8 +10,16 @@ pip install -r requirements.txt
 #Verify the Installation
 pip freeze
 
-# Verify Ollama
-ollama list
+# install Ollama
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull nomic-embed-text:latest
+ollama pull llama3.2:1b
+
+# verify ollama list
+ollama list 
+#you will see 
+nomic-embed-text:latest
+llama3.2:1b
 
 #### Run the AMBOT standalone
 python step_1_generate_embedding.py
