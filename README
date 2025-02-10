@@ -14,7 +14,7 @@ pip freeze
 curl -fsSL https://ollama.com/install.sh | sh
 ollama pull nomic-embed-text:latest
 ollama pull llama3.2:1b
-
+ollama serve
 # verify ollama list
 ollama list 
 #you will see 
