@@ -27,8 +27,7 @@ sudo systemctl status ollama
 
 
 #### Run the AMBOT standalone
-python step_1_generate_embedding.py
-python step_2_AMBOT.py
+python AMBOT.py
 
 #### For local host run
-python rag_api.py
+python AMBOT_api.py
