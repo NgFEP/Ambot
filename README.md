@@ -24,8 +24,8 @@
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/yourusername/RAG_Project.git
-cd RAG_Project
+git clone https://github.com/NgFEP/Ambot.git
+cd Ambot
 
 2️⃣ Install Dependencies
 
