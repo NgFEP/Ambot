@@ -25,6 +25,7 @@
 1️⃣ Clone the Repository
 
 git clone https://github.com/NgFEP/Ambot.git
+
 cd Ambot
 
 2️⃣ Install Dependencies
