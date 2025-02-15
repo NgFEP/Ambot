@@ -1,34 +1,20 @@
 🧠 RAG-Based Retrieval System with FAISS & DeepSeek LLM
 
+📢 A powerful, scalable Retrieval-Augmented Generation (RAG) system using FAISS and DeepSeek LLM.🛠 Ideal for knowledge-based Q&A, document retrieval, and AI chatbots.💡 Supports PDFs and web page processing with fast FAISS-based retrieval.
 
-
-
-
-
-
-📢 A powerful, scalable Retrieval-Augmented Generation (RAG) system using FAISS and DeepSeek LLM.🔹 Ideal for knowledge-based Q&A, document retrieval, and AI chatbots.🔹 Supports PDFs and web page processing with fast FAISS-based retrieval.
-
-📜 Table of Contents
+📌 Table of Contents
 
 📌 Features
 
 🚀 Installation
 
-📂 Project Structure
+👤 Project Structure
 
 🛠️ Usage
 
 🔧 Configuration
 
 ⚡ Performance Optimizations
-
-🛠️ Troubleshooting
-
-🛡️ License
-
-📌 Contributors
-
-📧 Contact
 
 📌 Features
 
@@ -57,7 +43,7 @@ Create the necessary folders:
 
 mkdir -p embeddings data
 
-📂 Project Structure
+👤 Project Structure
 
 📦 RAG_Project
 ├── 📂 embeddings/               # Stores generated embeddings
@@ -68,7 +54,7 @@ mkdir -p embeddings data
 
 🛠️ Usage
 
-🔹 Step 1: Generate Embeddings
+👉 Step 1: Generate Embeddings
 
 Run embedding_generation.py to process PDFs and web content:
 
@@ -84,7 +70,7 @@ Generates embeddings for each chunk.
 
 Stores embeddings in FAISS for fast retrieval.
 
-🔹 Step 2: Retrieve Answers
+👉 Step 2: Retrieve Answers
 
 Run query_retrieval.py to query the stored knowledge base:
 
@@ -94,7 +80,7 @@ You'll be prompted to enter a query:
 
 Enter your query (or type 'exit' to quit): What is the impact of inflation?
 
-🔹 The system will:
+The system will:
 1️⃣ Compute the query embedding.2️⃣ Search FAISS for the most relevant chunks.3️⃣ Use DeepSeek LLM to generate an answer.4️⃣ Return a clean, structured response.
 
 🔧 Configuration
@@ -115,36 +101,6 @@ top_k = 3  # Change this to retrieve more or fewer chunks
 
 ✅ Uses FAISS for fast similarity search.✅ Async web scraping speeds up data extraction.✅ Text chunking ensures better LLM processing.✅ Cosine similarity ranking improves accuracy.
 
-🛠️ Troubleshooting
 
-Issue
-
-Solution
-
-❌ "No valid embeddings found."
-
-Run embedding_generation.py before querying.
-
-❌ "ModuleNotFoundError: No module named 'faiss'"
-
-Install FAISS using pip install faiss-cpu.
-
-
-🛡️ License
-
-This project is licensed under the MIT License.
-
-📌 Contributors
-
-💡 Your Name - Project Creator💡 Other Contributor Name - Contributor
-
-Feel free to contribute! Open a Pull Request (PR) or report issues in the Issue Tracker.
-
-📧 Contact
-
-For any issues or improvements, contact me at:📧 your_email@example.com🔗 GitHub: yourusername
-
-🌟 Support
-
-⭐ If you like this project, give it a star on GitHub! ⭐📢 Share it with others who might find it useful.
+💖 If you like this project, give it a star! ⭐
 
