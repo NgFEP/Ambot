@@ -1,4 +1,4 @@
-🧠 RAG-Based Retrieval System with FAISS & DeepSeek LLM
+🧠 AMBOT (RAG-Based Retrieval System )
 
 📢 A powerful, scalable Retrieval-Augmented Generation (RAG) system using FAISS and DeepSeek LLM.🛠 Ideal for knowledge-based Q&A, document retrieval, and AI chatbots.💡 Supports PDFs and web page processing with fast FAISS-based retrieval.
 
