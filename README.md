@@ -47,6 +47,7 @@ mkdir -p embeddings data
 👤 Project Structure
 
 📦 RAG_Project
+
 ├── 📂 embeddings/               # Stores generated embeddings
 
 ├── 📂 data/                     # Stores input PDF & web page files
