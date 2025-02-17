@@ -19,10 +19,15 @@
 📌 Features
 
 ✅ Retrieval-Augmented Generation (RAG) – Uses FAISS for context-aware query answering.
+
 ✅ Multi-Document Support – Processes PDFs and web pages.
+
 ✅ DeepSeek-Style Prompting – Ensures structured, fact-based responses.
+
 ✅ Fast & Scalable Retrieval – FAISS enables rapid similarity search.
+
 ✅ Cosine Similarity Ranking – Retrieves the most relevant chunks.
+
 ✅ Cleans LLM Output – Removes unwanted artifacts like <think>.
 
 🚀 Installation
