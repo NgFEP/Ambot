@@ -46,6 +46,9 @@ ollama serve &
 ```
 ollama pull deepseek-r1:14b
 ```
+```
+ollama pull nomic-embed-text:latest
+```
 - Create a folder to store the embeddings.
 ```
 mkdir -p embeddings
