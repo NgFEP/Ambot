@@ -44,6 +44,9 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama serve &
 ```
 ```
+ollama pull deepseek-r1:14b
+```
+```
 - Create a folder to store the embeddings.
 ```
 mkdir -p embeddings
