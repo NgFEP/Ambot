@@ -15,7 +15,8 @@ Follow these steps to install and set up AMBOT:
 - Clone the Repository 
 ```git clone https://github.com/NgFEP/Ambot.git
 
-cd Ambot```
+cd Ambot
+```
 
 pip install -r requirements.txt
 
