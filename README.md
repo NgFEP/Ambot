@@ -52,6 +52,8 @@ sudo systemctl enable ollama
 sudo systemctl start ollama
 sudo systemctl status ollama
 ```
+To pull the `deepseek-r1:14b` and `nomic-embed-text:latest` models using Ollama,
+
 ```
 ollama pull deepseek-r1:14b
 ```
