@@ -8,7 +8,7 @@ It leverages the AMBER manual and Q&A from the AMBER mailing list to provide acc
 - **Python**: 3.11
 - **OS**: Ubuntu 22.04.4 LTS
 - **pip**: 23.2.1
-- **Driver Version**: 555.42
+- **Nvidia Driver Version**: 555.42
 - **CUDA Version**: 12.5
   
 # Installation Instructions
