@@ -40,7 +40,8 @@ pip install -r requirements.txt
 ```
 curl -fsSL https://ollama.com/install.sh | sh
 ```
-These commands are used to manage the Ollama service (likely a machine learning model server) on a Linux system using `systemctl`, the systemd service manager.
+These commands are used to manage the Ollama service (likely a machine learning model server) on a Linux system using `systemctl`, 
+the systemd service manager.(https://github.com/ollama/ollama/blob/main/docs/linux.md)
 
 ```
 sudo systemctl daemon-reload
