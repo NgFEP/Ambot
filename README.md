@@ -5,13 +5,15 @@ It leverages the AMBER manual and Q&A from the AMBER mailing list to provide acc
 
 # Getting Started
 ## Dependencies
-- **Python** 3.11
-- **OS** Ubuntu 22.04.4 LTS
-- **pip** 23.2.1
-
+- **Python**: 3.11
+- **OS**: Ubuntu 22.04.4 LTS
+- **pip**: 23.2.1
+- **Driver Version**: 555.42.06
+- **CUDA Version**: 12.5
+  
 # Installation Instructions
 Follow these steps to install and set up AMBOT:
-- First, open your terminal and run the command to clone the repository.
+- Open your terminal and run the command to clone the repository.
 ```
 git clone https://github.com/NgFEP/Ambot.git
 ```
@@ -19,10 +21,12 @@ git clone https://github.com/NgFEP/Ambot.git
 ```
 cd Ambot
 ```
-- To install pip on Ubuntu, open your terminal and run the command
+- To install pip on Ubuntu, open your terminal and run the command (optional)
 ```
 sudo apt-get install python3-pip
 ```
+
+
 pip install -r requirements.txt
 
 If you don't have a requirements.txt, manually install:
