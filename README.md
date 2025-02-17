@@ -1,7 +1,7 @@
 # AMBOT
 
 AMBOT is a scalable and robust Retrieval-Augmented Generation (RAG) system designed for the AMBER (https://ambermd.org/) AI chatbot. 
-It leverages the AMBER manual and Q&A from the AMBER mailing list to provide accurate and context-aware responses.
+It leverages the AMBER manual and Q&A from the AMBER mailing list (http://archive.ambermd.org/) to provide accurate and context-aware responses.
 
 # Getting Started
 ## Dependencies
