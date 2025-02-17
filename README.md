@@ -19,9 +19,10 @@ git clone https://github.com/NgFEP/Ambot.git
 ```
 cd Ambot
 ```
-To install pip To install pip on Ubuntu, open your terminal and run the command
+- To install pip on Ubuntu, open your terminal and run the command
+```
 sudo apt-get install python3-pip
-
+```
 pip install -r requirements.txt
 
 If you don't have a requirements.txt, manually install:
