@@ -13,7 +13,7 @@ It leverages the AMBER manual and Q&A from the AMBER mailing list to provide acc
 Follow these steps to install and set up AMBOT:
 # step 1
 - Clone the Repository 
-git clone https://github.com/NgFEP/Ambot.git
+`git clone https://github.com/NgFEP/Ambot.git`
 cd Ambot
 
 pip install -r requirements.txt
