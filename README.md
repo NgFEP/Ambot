@@ -16,7 +16,7 @@ Follow these steps to install and set up AMBOT:
 ```
 git clone https://github.com/NgFEP/Ambot.git
 ```
--Change the directory
+- Change the directory
 ```
 cd Ambot
 ```
