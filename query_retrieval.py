@@ -103,10 +103,10 @@ def retrieve_and_answer_query(user_query: str) -> None:
     relevant_chunks = [all_chunks[idx] for idx in top_indices]
 
     # Print similarity scores
-    print("\n--- Top Retrieved Chunks & Cosine Similarities ---\n")
-    for idx in top_indices:
-        print(f"Similarity: {similarities[idx]:.4f}\nChunk: {all_chunks[idx][:300]}...\n")  # Preview first 300 chars
-    print("-----------------------------------------------------\n")
+    #print("\n--- Top Retrieved Chunks & Cosine Similarities ---\n")
+    #for idx in top_indices:
+    #    print(f"Similarity: {similarities[idx]:.4f}\nChunk: {all_chunks[idx][:300]}...\n")  # Preview first 300 chars
+    #print("-----------------------------------------------------\n")
 
     # Combine retrieved context
     context = "\n".join(relevant_chunks)
@@ -130,7 +130,7 @@ def retrieve_and_answer_query(user_query: str) -> None:
     #  Remove "<think>", "</think>", and similar unwanted tags
     answer = clean_response(answer)
 
-    print("\n--- LLM RESPONSE ---\n")
+    print("\n--- AMBOT RESPONSE ---\n")
     print(answer)
     print("\n-----------------------------------------------------\n")
 
