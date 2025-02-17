@@ -81,7 +81,14 @@ Enter your query (or type 'exit' to quit):
 For an example:
 ![alt text](https://github.com/NgFEP/Ambot/blob/main/Screenshot%20from%202025-02-17%2014-17-40.png)
 
-
-
+# Changing the Large Language Model (LLM)
+To switch from the "deepseek-r1:14b" LLM to "Llama 3.2", you need to modify the LLM_MODEL setting in embedding_generation.py and query_retrieval.py. 
+```
+LLM_MODEL = "deepseek-r1:14b"
+```
+to 
+```
+LLM_MODEL = "Llama 3.2"
+```
 💖 If you like this project, give it a star! ⭐
 
