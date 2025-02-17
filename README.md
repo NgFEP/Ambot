@@ -25,8 +25,6 @@ cd Ambot
 ```
 pip install -r requirements.txt
 ```
-- Set Up Directory Structure
-
 - Create a folder to store the embeddings.
 ```
 mkdir -p embeddings
