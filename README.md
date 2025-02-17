@@ -26,7 +26,7 @@ git clone https://github.com/NgFEP/Ambot.git
 cd Ambot
 ```
 ```
-python -m AMBOT_env
+python3 -m venv AMBOT_env
 ```
 ```
 source AMBOT_env/bin/activate
