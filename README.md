@@ -47,8 +47,8 @@ mkdir -p embeddings data
 👤 Project Structure
 
 📦 RAG_Project
-
 ├── 📂 embeddings/               # Stores generated embeddings
+
 ├── 📂 data/                     # Stores input PDF & web page files
 ├── 📜 embedding_generation.py   # Generates embeddings from PDFs & HTML
 ├── 📜 query_retrieval.py        # Retrieves and answers queries
