@@ -101,7 +101,14 @@ You'll be prompted to enter a query:
 Enter your query (or type 'exit' to quit): What is the impact of inflation?
 
 The system will:
-1️⃣ Compute the query embedding.2️⃣ Search FAISS for the most relevant chunks.3️⃣ Use DeepSeek LLM to generate an answer.4️⃣ Return a clean, structured response.
+
+1️⃣ Compute the query embedding.
+
+2️⃣ Search FAISS for the most relevant chunks.
+
+3️⃣ Use DeepSeek LLM to generate an answer.
+
+4️⃣ Return a clean, structured response.
 
 🔧 Configuration
 
