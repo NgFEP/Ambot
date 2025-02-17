@@ -1,3 +1,37 @@
+#AMBOT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 🧠 AMBOT (RAG-Based Retrieval System )
 
 📢 A powerful, scalable Retrieval-Augmented Generation (RAG) system using FAISS and DeepSeek LLM.
