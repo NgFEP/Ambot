@@ -29,9 +29,24 @@ pip install -r requirements.txt
 ```
 mkdir -p embeddings
 ```
+# Usage
+## Step 1
+- Run embedding_generation.py to process PDFs and web content:
+```
+python embedding_generation.py
+```
+## Step 2
 
+- Run query_retrieval.py to query the stored knowledge base:
+```
+python query_retrieval.py
+```
+You'll be prompted to enter a query:
 
+Enter your query (or type 'exit' to quit):
 
+For an example:
+Enter your query (or type 'exit' to quit): what is AMBER?
 
 
 
