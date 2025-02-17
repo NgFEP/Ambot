@@ -25,6 +25,12 @@ git clone https://github.com/NgFEP/Ambot.git
 ```
 cd Ambot
 ```
+```
+python -m AMBOT_env
+```
+```
+source AMBOT_env/bin/activate
+```
 - Ensure you have Python 3.11+ installed, then run:
 ```
 pip install -r requirements.txt
