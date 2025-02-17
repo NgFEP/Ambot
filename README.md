@@ -1,12 +1,16 @@
 # AMBOT
 
-AMBOT is a scalable and powerful Retrieval-Augmented Generation (RAG) system designed for the AMBER AI chatbot. It utilizes the AMBER manual and questions and answers from the AMBER mailing list.
+AMBOT is a scalable and robust Retrieval-Augmented Generation (RAG) system designed for the AMBER AI chatbot. It utilizes the AMBER manual and questions and answers from the AMBER mailing list.
 
-## Getting Started
-# Dependencies
+# Getting Started
+## Dependencies
+- Python 3.11
+- OS: Ubuntu 22.04.4 LTS
+- pip 23.2.1
 
-
-
+# Installation Instructions
+- Clone the Repository 
+git clone https://github.com/NgFEP/Ambot.git
 
 
 
