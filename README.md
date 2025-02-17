@@ -12,6 +12,9 @@ It leverages the AMBER manual and Q&A from the AMBER mailing list (http://archiv
 - **CUDA Version**: 12.5
 
 ## LLM Providers
+- deepseek-r1:14b
+## Text embed provider
+- nomic-embed-text:latest
 
 
 
