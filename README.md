@@ -50,8 +50,11 @@ mkdir -p embeddings data
 ├── 📂 embeddings/               # Stores generated embeddings
 
 ├── 📂 data/                     # Stores input PDF & web page files
+
 ├── 📜 embedding_generation.py   # Generates embeddings from PDFs & HTML
+
 ├── 📜 query_retrieval.py        # Retrieves and answers queries
+
 ├── 📜 README.md                 # Documentation
 
 🛠️ Usage
