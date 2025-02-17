@@ -41,7 +41,10 @@ pip install -r requirements.txt
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 ```
-ollama serve &
+sudo systemctl daemon-reload
+sudo systemctl enable ollama
+sudo systemctl start ollama
+sudo systemctl status ollama
 ```
 ```
 ollama pull deepseek-r1:14b
