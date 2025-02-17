@@ -25,19 +25,12 @@ cd Ambot
 ```
 pip install -r requirements.txt
 ```
-or
+- Set Up Directory Structure
 
-If you don't have a requirements.txt, manually install:
-
+- Create a folder to store the embeddings.
 ```
-pip install numpy faiss-cpu aiohttp PyPDF2 beautifulsoup4 ollama
-```
-Set Up Directory Structure
-
-Create the necessary folders:
-
 mkdir -p embeddings
-
+```
 
 
 
