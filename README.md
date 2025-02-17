@@ -39,7 +39,7 @@ source AMBOT_env/bin/activate
 pip install -r requirements.txt
 ```
 
-- Download Ollama
+- Download Ollama (https://ollama.com/download)
 ```
 curl -fsSL https://ollama.com/install.sh | sh
 ```
