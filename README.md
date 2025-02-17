@@ -75,6 +75,7 @@ You'll be prompted to enter a query:
 Enter your query (or type 'exit' to quit):
 
 For an example:
+![alt text](https://github.com/NgFEP/Ambot/blob/main/Screenshot%20from%202025-02-17%2014-17-40.png)
 Enter your query (or type 'exit' to quit): what is AMBER?
 
 
