@@ -41,6 +41,9 @@ pip install -r requirements.txt
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 ```
+ollama serve &
+```
+```
 - Create a folder to store the embeddings.
 ```
 mkdir -p embeddings
