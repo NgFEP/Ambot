@@ -11,8 +11,7 @@ It leverages the AMBER manual and Q&A from the AMBER mailing list to provide acc
 
 # Installation Instructions
 Follow these steps to install and set up AMBOT:
-# step 1
-- Clone the Repository 
+- First, open your terminal and run the command to clone the repository.
 ```
 git clone https://github.com/NgFEP/Ambot.git
 ```
@@ -20,6 +19,8 @@ git clone https://github.com/NgFEP/Ambot.git
 ```
 cd Ambot
 ```
+To install pip To install pip on Ubuntu, open your terminal and run the command
+sudo apt-get install python3-pip
 
 pip install -r requirements.txt
 
