@@ -34,6 +34,11 @@ source AMBOT_env/bin/activate
 - Ensure you have Python 3.11+ installed, then run:
 ```
 pip install -r requirements.txt
+
+- Download Ollama
+```
+curl -fsSL https://ollama.com/install.sh | sh
+```
 ```
 - Create a folder to store the embeddings.
 ```
