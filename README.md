@@ -1,10 +1,8 @@
 # Ambot
 
-**Ambot** is a scalable and robust Retrieval-Augmented Generation (RAG) system designed for the AMBER (https://ambermd.org/) AI chatbot. 
-It leverages the **AMBER** manual and Q&A from the AMBER mailing list (http://archive.ambermd.org/) to provide accurate and context-aware responses.
-
-## Purpose
-**Ambot** is designed to assist users in resolving technical issues related to **AMBER installation**, **simulation setup**, and **troubleshooting** efficiently. Instead of spending hours searching through online forums, documentation, or the AMBER mailing list, users can directly ask their questions to Ambot. It retrieves precise and relevant information from the AMBER manual and curated Q&A, saving time and providing reliable solutions.
+A scalable and robust Retrieval-Augmented Generation (RAG) system designed for the AMBER (https://ambermd.org/) AI chatbot. 
+## Description
+**Ambot** is designed to assist users in resolving technical issues related to **AMBER installation**, **simulation setup**, and **troubleshooting** efficiently. Instead of spending hours searching through online forums, documentation, or the AMBER mailing list, users can directly ask their questions to Ambot. It leverages the **AMBER** manual and Q&A from the AMBER mailing list (http://archive.ambermd.org/) to save time and providing reliable solutions.
 
 Whether you're facing errors during installation, struggling with simulation setup, or encountering runtime issues, Ambot is here to help. It serves as a one-stop solution for AMBER-related queries, making it easier for researchers and developers to focus on their work rather than troubleshooting.
 
