@@ -1,7 +1,7 @@
 # Ambot
 
-Ambot is a scalable and robust Retrieval-Augmented Generation (RAG) system designed for the AMBER (https://ambermd.org/) AI chatbot. 
-It leverages the AMBER manual and Q&A from the AMBER mailing list (http://archive.ambermd.org/) to provide accurate and context-aware responses.
+**Ambot** is a scalable and robust Retrieval-Augmented Generation (RAG) system designed for the AMBER (https://ambermd.org/) AI chatbot. 
+It leverages the **AMBER** manual and Q&A from the AMBER mailing list (http://archive.ambermd.org/) to provide accurate and context-aware responses.
 
 ## Purpose
 **Ambot** is designed to assist users in resolving technical issues related to **AMBER installation**, **simulation setup**, and **troubleshooting** efficiently. Instead of spending hours searching through online forums, documentation, or the AMBER mailing list, users can directly ask their questions to Ambot. It retrieves precise and relevant information from the AMBER manual and curated Q&A, saving time and providing reliable solutions.
@@ -20,8 +20,6 @@ Whether you're facing errors during installation, struggling with simulation set
 - deepseek-r1:14b
 ## Text embed provider
 - nomic-embed-text:latest
-
-
 
 # Installation Instructions (Ubuntu)
 Follow these steps to install and set up Ambot:
@@ -71,13 +69,13 @@ mkdir -p embeddings
 ```
 # Usage
 ## Step 1
-- Run embedding_generation.py to process **AMBER** PDFs and web content to create **Ambot** answering AMBER users technical issues:
+- To generate embeddings and create Ambot:
 ```
 python embedding_generation.py
 ```
 ## Step 2
 
-- Run query_retrieval.py to test **Ambot** performance:
+- To query and test **Ambot**:
 ```
 python query_retrieval.py
 ```
