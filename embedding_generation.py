@@ -50,7 +50,7 @@ def load_embeddings(filename: str) -> Optional[List[np.ndarray]]:
     with open(path, "r") as f:
         return [np.array(emb) for emb in json.load(f)]
 
-def parse_pdf_file(filename: str, start_page: int = 15, end_page: int = 15) -> List[str]:
+def parse_pdf_file(filename: str, start_page: int = 15, end_page: int = 968) -> List[str]:
     reader = PdfReader(filename)
     text = " ".join(
         reader.pages[i].extract_text() 
