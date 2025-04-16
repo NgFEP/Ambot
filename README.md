@@ -190,4 +190,6 @@ Follow these steps to install and set up Ambot on Windows using Anaconda:
 Rest similar to **Installation Instructions (Ubuntu)**
 
 💖 If you like this project, give it a star! ⭐
-
+## Authors
+Contributors names and contact info
+- [Saikat Pal](https://github.com/saikat0003)
