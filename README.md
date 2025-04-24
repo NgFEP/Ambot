@@ -1,4 +1,4 @@
-# Ambot[Link](http://tokay.rutgers.edu:5000/)
+# Ambot [Link](http://tokay.rutgers.edu:5000/)
 
 A scalable and robust Retrieval-Augmented Generation (RAG) system designed for the AMBER (https://ambermd.org/) AI chatbot. 
 ## Description
